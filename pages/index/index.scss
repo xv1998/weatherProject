@@ -1,0 +1,63 @@
+.container{
+  margin: 0;
+  padding: 0;
+  font-size: 30rpx;
+  background: linear-gradient(180deg, lightgrey, white);
+}
+.info {
+  padding: 20rpx 0 50rpx;
+}
+.info .temp,
+.info .weather {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.info .weather {
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+}
+.temp {
+  height: 360rpx;
+  font-size: 200rpx;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 50rpx;
+  font-size: 60rpx;
+}
+.city .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city .name .val {
+  max-width: 5em;
+  overflow: hidden;
+}
+
+.hor{
+  display: flex;
+}
+date{
+  display: block;
+  margin-right: 2rpx;
+}
+.forcast{
+  padding: 30rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+  border-bottom: 1rpx solid #eee;
+  justify-content: space-around;
+}
+.center{
+  text-align: center;
+  margin: auto 0;
+}

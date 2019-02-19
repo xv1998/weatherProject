@@ -1,0 +1,108 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, lightgrey, white); 
+}
+
+.city {
+  width: 100%; 
+  position: relative;
+  text-align:center;
+  height: 900rpx;
+}
+
+.location {
+  padding: 10rpx;
+  font-size: 42rpx;
+  font-family: "PingFangSC-Medium";
+  text-align: center;
+  position: absolute; 
+  top: 1%;  
+  left: 0;
+  right: 0;
+  height: 56rpx;
+}
+.location view {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  white-space: nowrap; 
+}
+.location view text {
+  color: white;
+  font-size: 30rpx;
+  padding-right: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-left: 60rpx;
+  white-space: nowrap;
+}
+.nowTemp {
+  text-align: center;
+  font-size: 180rpx;
+  color: #fafbfb;
+  font-family: "SFUIDisplay-Regular";
+  position: absolute; 
+  top: 18%;
+  left: 0;
+  right: 0;
+}
+.nowWind {
+  text-align: center;
+  color: white;
+  font-size: 40rpx;
+  position: absolute; 
+  top: 48%;
+  left: 0;
+  right: 0;
+}
+.air_now {
+  text-align: center;
+  font-size: 40rpx;
+  color: white;
+  position: absolute; 
+  top: 54%;
+  left: 0;
+  right: 0;
+}
+.week{
+  text-align: center;
+  font-size: 60rpx;
+  color: white;
+  position: absolute; 
+  top: 65%;
+  left: 0;
+  right: 0;
+}
+.dailyForecast {
+  margin-top: 10rpx; 
+  width: 100%;
+  font-family: "PingFangSC-Medium"; 
+}
+.daily {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  background-color: white;
+  text-align: center;
+}
+.dailyDate {
+   text-align: left; 
+   width: 25%;
+   color: #4B4B4B;
+   font-size: 30rpx;
+   margin-left: 5%;
+}
+.dailyCond {
+   text-align: left; 
+   width: 40%;
+   color: #4B4B4B;
+   font-size: 30rpx;
+}
+.dailyTmp {
+   text-align: center; 
+   width: 40%;
+   font-size: 30rpx;
+   font-family: "PingFangSC-Semibold";
+}
