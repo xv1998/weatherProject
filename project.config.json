@@ -3,6 +3,7 @@
 	"packOptions": {
 		"ignore": []
 	},
+	"miniprogramRoot": "src/",
 	"setting": {
 		"urlCheck": false,
 		"es6": true,
@@ -12,9 +13,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.0",
-	"appid": "wx359c5c0cf7b398b8",
-	"projectname": "weatherProject",
+	"libVersion": "2.5.1",
+	"appid": "wx560f8ff50bb29424",
+	"projectname": "mini-pro-framework",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

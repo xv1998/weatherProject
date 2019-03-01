@@ -1,0 +1,30 @@
+{
+  "name": "mini-pro-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node script/init.js",
+    "sass": "sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.code.tencent.com/stu-syllabus/mini-pro-framework.git"
+  },
+  "author": "大萌糖",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "eslint": "^5.12.1",
+    "eslint-config-alloy": "^1.4.2",
+    "transform-runtime": "0.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

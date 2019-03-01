@@ -1,7 +1,8 @@
+<!--pages/test/test.wxml-->
 <!--index.wxml-->
 <view class='container'>
     <view class='city'>
-       <view class='location' bindtap='chooseLocation'>
+      <view class='location' bindtap='chooseLocation'>
         <view>
           <text >{{location}}</text>
         </view>
@@ -10,8 +11,8 @@
         <view class='nowWind'>{{nowWind}}</view>
         <view class='air_now'>{{nowAir}}</view>
         <view class='week'>{{week}}</view>
-    </view>
-  <view class='dailyForecast'>
+      </view>
+    <view class='dailyForecast'>
         <block wx:for="{{dailyForecast}}" wx:key="unique" style="display: block;">
           <view class='daily' style="flex-direction:row;">
             <view class='dailyDate'>{{item.date}}</view> 
